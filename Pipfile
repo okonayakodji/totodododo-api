@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 fastapi = {extras = ["standard"], version = "*"}
+sqlalchemy = {extras = ["asyncio"], version = "*"}
+alembic = "*"
+asyncpg = "*"
 
 [dev-packages]
 pylint = "*"
